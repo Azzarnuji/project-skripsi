@@ -298,7 +298,7 @@
                     <!-- Col2 -->
                     <div class="col2">
                         <div class="ads22" style="width: auto; height: auto">
-                            <li><iframe src="http://localhost:8000/login" frameborder="0" height="600px"
+                            <li><iframe src="{{ env('APP_URL') }}/login" frameborder="0" height="600px"
                                     onload="checkIframe(this)"></iframe></li>
                         </div>
                         <span style="margin-right: 3px; margin-left: 3px; font-size:1rem;">
